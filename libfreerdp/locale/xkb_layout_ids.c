@@ -660,6 +660,7 @@ static const XKB_VARIANT ch_variants[] =
 	{ "fr_nodeadkeys",	KBD_SWISS_FRENCH }, /* French, eliminate dead keys */
 	{ "fr_sundeadkeys",	KBD_SWISS_FRENCH }, /* French, Sun dead keys */
 	{ "fr_mac",		KBD_SWISS_FRENCH }, /* French (Macintosh) */
+	{ "de",		KBD_SWISS_GERMAN }, /* German */
 	{ "de_mac",		KBD_SWISS_GERMAN }, /* German (Macintosh) */
 	{ "",			0 },
 };
