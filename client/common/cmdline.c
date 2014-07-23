@@ -1916,7 +1916,6 @@ int freerdp_client_settings_parse_command_line_arguments(rdpSettings* settings, 
 				settings->GatewayUsername = _strdup(settings->Username);
 				fprintf(stderr, "settings->GatewayUsername = '%s'\n",
 					settings->GatewayUsername);
-				}
 			}
 
 			if (settings->Domain)
@@ -1924,13 +1923,12 @@ int freerdp_client_settings_parse_command_line_arguments(rdpSettings* settings, 
 				settings->GatewayDomain = _strdup(settings->Domain);
 				fprintf(stderr, "settings->GatewayDomain = '%s'\n",
 					settings->GatewayDomain);
-				}
 			}
 			if (settings->Password)
+			{
 				settings->GatewayPassword = _strdup(settings->Password);
 				fprintf(stderr, "settings->GatewayPassword = '%s'\n",
 					settings->GatewayPassword);
-				}
 			}
 		}
 		else
